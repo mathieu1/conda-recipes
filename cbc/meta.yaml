@@ -1,0 +1,26 @@
+
+package:
+    name: cbc
+    version: 2.9.7
+
+source:
+    fn: Cbc-2.9.7.tgz     
+    url: http://www.coin-or.org/download/source/Cbc/Cbc-2.9.7.tgz
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - gcc
+        - openblas
+
+    run:
+        - openblas
+
+test:
+    commands:
+
+about:
+    home: https://projects.coin-or.org/Cbc
+    license: Eclipse Public License 1.0
