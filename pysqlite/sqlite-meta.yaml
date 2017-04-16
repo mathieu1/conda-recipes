@@ -1,0 +1,14 @@
+{% set sha256 = "1cfb91106650a12840e107db29f2ec4afe3d7f9dc5936770ef53bc3eb6387b6e" %}
+
+package:
+  name: sqlite
+  version: "3.18"
+
+source:
+  fn: sqlite-amalgamation-3180000.zip
+  url:  http://www.sqlite.org/2017/sqlite-amalgamation-3180000.zip
+  sha256: {{ sha256 }}
+
+extra:
+  recipe-maintainers:
+    - mathieu1
